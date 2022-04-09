@@ -10,7 +10,7 @@
 body {
   background-color: #e5e5e5;
   color: var(--basic-colour);
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
 .accent-colour {
   color: var(--accentColour);
@@ -21,6 +21,9 @@ li {
 }
 a {
   text-decoration: none;
+}
+.link-active {
+  color: var(--accentColour);
 }
 /*----------HEADER-------*/
 .header-logo {
@@ -89,6 +92,7 @@ a {
 
   color: var(--secondary-colour);
   background-color: var(--background-element);
+  cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
@@ -97,7 +101,7 @@ a {
 }
 .about-main {
   font-family: inherit;
-  font-weight: 700;
+  font-weight: inherit;
   font-size: 14px;
   line-height: 1.14;
 
@@ -107,7 +111,7 @@ a {
 }
 .about-text {
   font-family: inherit;
-  font-weight: 400;
+  font-weight: inherit;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
