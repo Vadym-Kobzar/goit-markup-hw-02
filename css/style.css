@@ -57,7 +57,7 @@ a {
   letter-spacing: 0.02em;
   font-style: normal;
 
-  color: #757575;
+  color: var(--tertiary-colour);
 }
 .contact:hover,
 .contact:focus {
@@ -94,6 +94,14 @@ a {
   background-color: var(--accentColour);
   color: var(--whiteColour);
 }
+.about-portfolio-text {
+  font-size: 16px;
+  line-height: 1.88;
+
+  letter-spacing: 0.03em;
+
+  color: var(--tertiary-colour);
+}
 .about-portfolio {
   font-size: 18px;
   line-height: 2;
@@ -105,20 +113,20 @@ a {
   line-height: 1.14;
 
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--secondary-colour);
 }
 .about-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--tertiary-colour);
 }
 .visual {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--secondary-colour);
 }
 .employees {
   background: #e5e5e5;
@@ -128,14 +136,14 @@ a {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--secondary-colour);
 }
 .employees-position {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--tertiary-colour);
 }
 /*-------------FOOTER--------------*/
 .footer-logo {
