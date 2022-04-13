@@ -22,9 +22,7 @@ li {
 a {
   text-decoration: none;
 }
-.link-active {
-  color: var(--accentColour);
-}
+
 /*----------HEADER-------*/
 .header-logo {
   font-family: 'Raleway';
@@ -34,6 +32,13 @@ a {
 
   letter-spacing: 0.03em;
   color: var(--basic-colour);
+}
+.current {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accentColour);
 }
 
 .nav-link {
@@ -98,6 +103,7 @@ a {
   letter-spacing: 0.03em;
 
   color: var(--secondary-colour);
+  cursor: pointer;
 }
 .portfolio-nav-btn:hover,
 .portfolio-nav-btn:focus {
