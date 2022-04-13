@@ -63,6 +63,9 @@ a {
 }
 /*-------------MAIN------------*/
 .hero {
+  background: #2f303a;
+}
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -72,7 +75,6 @@ a {
   text-transform: uppercase;
 
   color: #ffffff;
-  background: #2f303a;
 }
 .btn {
   font-weight: 700;
